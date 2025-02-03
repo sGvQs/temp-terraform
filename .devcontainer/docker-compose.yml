@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  app:
+    container_name: kids_infra
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TZ: Asia/Tokyo
+    volumes:
+      - ..:/workspaces:cached
+    tty: true
+    restart: unless-stopped
