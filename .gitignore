@@ -1,0 +1,10 @@
+# local
+**/.terraform.lock.hcl
+terraform-*
+
+# tfstate
+*.tfstate
+*.tfstate.*
+
+# .DS_Store
+.DS_Store
