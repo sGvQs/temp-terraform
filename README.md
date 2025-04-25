@@ -6,6 +6,12 @@
 which aws
 ```
 
+## terraform のリソース置き場作成コマンド
+
+```
+bash create-backend-s3.sh
+```
+
 ## init command
 
 ```
